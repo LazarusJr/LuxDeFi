@@ -18,12 +18,13 @@ const Navbar = () => {
         <div className='logo'>
         <img src={Logo} alt='' />
        </div>
-           <ul className='nav'>
+           <ul className={click ? 'nav active' : 'nav' }>
                <li className='nav-item'><a href='/'>Home</a></li>
                <li className='nav-item'><a href='/'>About</a></li>
                <li className='nav-item'><a href='./'>FAQ</a></li>
                <li className='nav-item'><a href='./'>Contact Us</a></li>
-               <button className='btn-burger'>SIGN UP</button>
+               <button className='btn-desktop'>SIGN UP</button>
+               <button className='btn-mobile'>SIGN UP</button>
            </ul>
            <div className='hamburger' onClick={burgerClick}>
                {click ? (<CgCloseR size={30} />) : (<GiHamburgerMenu size={30} />)}

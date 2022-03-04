@@ -4,6 +4,7 @@ ul {
 
 .nav a {
     color: var(--primary);
+    font-size: 1.2rem;
 }
 
 .navbar {
@@ -41,7 +42,13 @@ ul {
 .navbar li {
     padding: 1rem;
     font-weight: 500;
-    color: var(--primary)
+    color: var(--primary);
+}
+
+.navbar a:hover {
+    color: white;
+    cursor: pointer;
+
 }
 
 .navbar img {
@@ -54,11 +61,37 @@ ul {
     margin-right: 20px;
 }
 
-.nav .btn-burger {
-    display: none;
+
+@media screen and (max-width: 1140px) {
+
+    .nav .btn-mobile {
+        display: none;
+    }
+
+    .nav .btn-desktop {
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-right: 15px;
+        background-color: black;
+        border: 1px solid var(--primary);
+        border-radius: 5px;
+        color: var(--primary);
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        
+    }
+    .nav .btn-desktop:hover {
+        background-color: #101112;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 940px) {
+
+    .nav .btn-desktop {
+        display:none;
+    }
    .navbar .hamburger {
        display: block;
    }
@@ -75,11 +108,11 @@ ul {
     margin-left: -60px;
    }
 
-   .nav .btn-burger {
+   .nav .btn-mobile {
        display: block;
-       width: 100px;
-       height: 40px;
-       margin-top: 5px;
+       width: 150px;
+       height: 50px;
+       margin-top: 10px;
        background-color: black;
        border: 1px solid var(--primary);
        border-radius: 5px;
@@ -88,9 +121,13 @@ ul {
        cursor: pointer;
    }
 
-   .nav .btn-burger:hover {
-       background-color: white;
+   .nav .btn-mobile:hover {
+       background-color: #101112;
        cursor: pointer;
+   }
+
+   .nav a {
+       font-size: 2rem;
    }
 
    .nav {
@@ -98,15 +135,20 @@ ul {
        flex-direction: column;
        justify-content: start !important;
        top: 72px;
-       left: 0;
+       right: -100%;
        width: 100%;
        height: 100vh;
        align-items: center;
        background-color: black;
+       transition: 0.2s;
    }
 
    .nav a:hover {
        color: white;
        cursor:pointer;
    }
+}
+
+.nav.active {
+    right:0;
 }
