@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='navbar'>
     <div className='container'>
         <div className='text-logo'>
-        <h1>XEFI</h1>
+        <h1><a href='/'>XEFI</a></h1>
         </div>
         <div className='logo'>
         <img src={Logo} alt='' />

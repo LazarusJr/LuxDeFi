@@ -1,0 +1,117 @@
+.Main-Hero {
+height: 90vh;
+width: 100%;
+top: 90px;
+object-fit: contain;
+color: var(--primary);
+}
+
+.Main-Hero .lux {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    max-width: 940px;
+    margin: auto;
+}
+
+.Main-Hero .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#video {
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.col-1 {
+    width: 100%;
+    height: 60vh;
+    padding: 1 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-2 {
+    padding: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Main-Hero .flayout {
+    width: 400px;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 70%);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+/* Col-2*/
+
+.col-2 h1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-2 .form-heading p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form-inputs input {
+    display: block;
+    width: 70%;
+    padding: .3rem;
+    margin: .7em;
+    text-align: center;
+    background-color: black;
+    border-color: var(--primary);
+    border-radius: 5px;
+    color: var(--primary);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-inputs input::placeholder {
+    color: var(--primary);
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+}
+
+
+
+
+
+/* Divider Shape */
+
+.custom-shape-divider-bottom-1646422120 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1646422120 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1646422120 .shape-fill {
+    fill: #000000;
+}

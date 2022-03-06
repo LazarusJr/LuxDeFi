@@ -61,8 +61,12 @@ ul {
     margin-right: 20px;
 }
 
+.navbar .text-logo a {
+    text-decoration: none;
+    color: var(--primary) 
+}
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1920px) {
 
     .nav .btn-mobile {
         display: none;
@@ -82,8 +86,10 @@ ul {
         
     }
     .nav .btn-desktop:hover {
-        background-color: #101112;
+        /* background-color: #101112; */
         cursor: pointer;
+        color: white;
+        border-color: white;
     }
 }
 
@@ -101,7 +107,7 @@ ul {
    }
 
    .navbar img {
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     width: 180px;
     display: flex;
@@ -122,8 +128,10 @@ ul {
    }
 
    .nav .btn-mobile:hover {
-       background-color: #101112;
+       /* background-color: #101112; */
        cursor: pointer;
+       color: white;
+       border-color: white;
    }
 
    .nav a {
