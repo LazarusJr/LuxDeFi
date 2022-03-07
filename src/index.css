@@ -14,6 +14,8 @@
 body {
   font-family: 'Rajdhani', sans-serif;
   background-color: black;
+  color: var(--primary);
+  overflow-x: hidden;
 }
 
 a {

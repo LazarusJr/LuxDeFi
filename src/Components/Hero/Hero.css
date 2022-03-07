@@ -2,15 +2,20 @@
 /* MAIN HERO STYLING */
 
 .Main-Hero { /* the main body of the Hero component */
-height: 90vh;
+height: 80vh;
 width: 100%;
 top: 90px;
 object-fit: contain;
 color: var(--primary);
+} 
+
+.Main-Hero h1 { /* the LUX-XEFI text in the main heading */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
 }
 
-.Main-Hero .lux { /* the LUX-XEFI text in the main heading */
-    font-family: 'Montserrat', sans-serif;
+.Main-Hero h3 {
+    margin-top: 30px;
 }
 
 /* .wrap { 
@@ -19,8 +24,8 @@ color: var(--primary);
 } */
 
 .Main-Hero .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
 }
 
 #video {
@@ -43,98 +48,18 @@ color: var(--primary);
     align-items: center;
 }
 
-/* COL-2 STYLING*/
-
-.col-2 {
-    padding: 4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.col-2 h1 { /* H1 styling -'Start your jounrey today'*/
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.col-2 .form-heading p { /* form sub heading styling */
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 30px;
-}
-
-
-/* FORM STYLING */
-
-.form-inputs input { /*Main textarea input */
-    display: block;
-    width: 70%;
-    padding: .3rem;
-    margin: .7em;
-    text-align: center;
-    background-color: black;
-    border-color: var(--primary);
-    border-radius: 5px;
-    color: var(--primary);
-    font-family: 'Montserrat', sans-serif;
-}
-
-.flayout {
-    width: 400px;
-    height: 330px;
-    background-color: rgba(0, 0, 0, 70%);
-    padding: 30px;
-    border-radius: 30px;
-}
-
-.form-inputs input::placeholder { /*Controls the styling of the placeholder text */
-    color: var(--primary);
-    font-family: 'Montserrat', sans-serif;
-    font-weight:lighter;
-}
-
-.flayout button:hover {
-    color: white;
-}
-.form-inputs input:focus { /*input outline */ 
-    outline: none;
-}
-
-.form-footer span {
-    text-decoration: underline;
-}
-
-.form-footer span:hover {
-    color: white;
-    cursor: pointer
-}
-
-.form-footer {
-    justify-content: center;
-    display: flex;
-    margin-top: 10px;
-}
-
-.form-footer input {
-    margin-top: 3.5px;
-    
-}
 
 /* DIVIDER SHAPE */
 
 .custom-shape-divider-bottom-1646422120 {
     position: absolute;
-    bottom: 0;
+    bottom: 66px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    z-index: -1;
 }
 
 .custom-shape-divider-bottom-1646422120 svg {
@@ -147,8 +72,6 @@ color: var(--primary);
 .custom-shape-divider-bottom-1646422120 .shape-fill {
     fill: #000000;
 }
-
-
 
 /* RESPONSIVE STYLING */
 
@@ -166,9 +89,15 @@ color: var(--primary);
     .col-2 {
         display: none;
     }
+    .custom-shape-divider-bottom-1646422120 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 200px;
+    }
 
     .col-1 h1 {
-        font-size: 50px;
+        font-size: 70px;
         font-family: 'Montserrat', sans-serif;
     }
 }

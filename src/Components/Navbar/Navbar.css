@@ -10,7 +10,7 @@
     background-color: black;
 }
 
-.navbar .container { /* styling the nav bar */
+.navbar .nav-container { /* styling the nav bar */
     max-width: 1140px;
     height: 100%;
     display: flex;
@@ -60,7 +60,8 @@
 
 .navbar .text-logo a {
     text-decoration: none;
-    color: var(--primary) 
+    color: var(--primary);
+    box-shadow: 5px 4px var(--primary);
 }
 
 .nav.active {

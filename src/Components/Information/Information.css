@@ -1,0 +1,96 @@
+.container2 {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+   background-color: black;
+}
+
+/* COL-2 STYLING*/
+
+
+.column-2 button:hover {
+color: white;
+}
+
+.column-2 {
+margin: 100px;
+}
+
+.column-2 h1 { /* H1 styling -'Start your jounrey today'*/
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column-2 .form-heading p { /* form sub heading styling */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* FORM STYLING */
+
+.form-inputs input { /*Main textarea input */
+    display: block;
+    width: 70%;
+    padding: .3rem;
+    margin: .7em;
+    text-align: center;
+    background-color: black;
+    border-color: var(--primary);
+    border-radius: 5px;
+    color: var(--primary);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flayout {
+    width: 400px;
+    height: 330px;
+    padding: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inputs input::placeholder { /*Controls the styling of the placeholder text */
+    color: var(--primary);
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+}
+
+.form-inputs input:focus { /*input outline */ 
+    outline: none;
+}
+
+.form-footer span {
+    text-decoration: underline;
+}
+
+.form-footer span:hover {
+    color: white;
+    cursor: pointer
+}
+
+.form-footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.form-footer input {
+    margin-top: 3.5px;
+    
+}
+
+.column-2 {
+    margin: 100px;
+}
+
+.column-1 {
+    margin: 100px;
+}

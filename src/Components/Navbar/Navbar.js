@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-    <div className='container'>
+    <div className='nav-container'>
         <div className='text-logo'>
         <h1><a href='/'>XEFI</a></h1>
         </div>
