@@ -58,6 +58,7 @@ color: var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .col-2 .form-heading p { /* form sub heading styling */
@@ -145,4 +146,29 @@ color: var(--primary);
 
 .custom-shape-divider-bottom-1646422120 .shape-fill {
     fill: #000000;
+}
+
+
+
+/* RESPONSIVE STYLING */
+
+@media screen and (max-width:940px) {
+    .col-1 p {
+        margin: 0 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:640px ) {
+    .Main-Hero .container {
+        display: block;
+    }
+    .col-2 {
+        display: none;
+    }
+
+    .col-1 h1 {
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
 }
