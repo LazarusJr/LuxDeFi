@@ -19,3 +19,21 @@ body {
 a {
   text-decoration: none;
 }
+
+.btn-desktop {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-right: 15px;
+  background-color: black;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  color: var(--primary);
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  
+}
+
+ul {
+  list-style: none;
+}

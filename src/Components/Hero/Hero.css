@@ -1,4 +1,7 @@
-.Main-Hero {
+
+/* MAIN HERO STYLING */
+
+.Main-Hero { /* the main body of the Hero component */
 height: 90vh;
 width: 100%;
 top: 90px;
@@ -6,14 +9,14 @@ object-fit: contain;
 color: var(--primary);
 }
 
-.Main-Hero .lux {
+.Main-Hero .lux { /* the LUX-XEFI text in the main heading */
     font-family: 'Montserrat', sans-serif;
 }
 
-.wrap {
+/* .wrap { 
     max-width: 940px;
     margin: auto;
-}
+} */
 
 .Main-Hero .container {
     display: grid;
@@ -28,6 +31,8 @@ color: var(--primary);
     z-index: -1;
 }
 
+/* COL-1 STYLING */
+
 .col-1 {
     width: 100%;
     height: 60vh;
@@ -38,6 +43,8 @@ color: var(--primary);
     align-items: center;
 }
 
+/* COL-2 STYLING*/
+
 .col-2 {
     padding: 4rem;
     width: 100%;
@@ -46,31 +53,24 @@ color: var(--primary);
     justify-content: center;
 }
 
-.Main-Hero .flayout {
-    width: 400px;
-    height: 330px;
-    background-color: rgba(0, 0, 0, 70%);
-    padding: 30px;
-    border-radius: 30px;
-}
-
-/* Col-2*/
-
-.col-2 h1 {
+.col-2 h1 { /* H1 styling -'Start your jounrey today'*/
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.col-2 .form-heading p {
+.col-2 .form-heading p { /* form sub heading styling */
     align-items: center;
     justify-content: center;
     display: flex;
     margin-bottom: 30px;
 }
 
-.form-inputs input {
+
+/* FORM STYLING */
+
+.form-inputs input { /*Main textarea input */
     display: block;
     width: 70%;
     padding: .3rem;
@@ -83,17 +83,48 @@ color: var(--primary);
     font-family: 'Montserrat', sans-serif;
 }
 
-.form-inputs input::placeholder {
+.flayout {
+    width: 400px;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 70%);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.form-inputs input::placeholder { /*Controls the styling of the placeholder text */
     color: var(--primary);
     font-family: 'Montserrat', sans-serif;
     font-weight:lighter;
 }
 
+.flayout button:hover {
+    color: white;
+}
+.form-inputs input:focus { /*input outline */ 
+    outline: none;
+}
 
+.form-footer span {
+    text-decoration: underline;
+}
 
+.form-footer span:hover {
+    color: white;
+    cursor: pointer
+}
 
+.form-footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
 
-/* Divider Shape */
+.form-footer input {
+    margin-top: 3.5px;
+    
+}
+
+/* DIVIDER SHAPE */
 
 .custom-shape-divider-bottom-1646422120 {
     position: absolute;

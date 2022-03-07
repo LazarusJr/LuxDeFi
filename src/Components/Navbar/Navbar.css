@@ -1,19 +1,16 @@
-ul {
-    list-style: none;
-}
 
-.nav a {
+.nav a { /* Nav items styling */
     color: var(--primary);
     font-size: 1.2rem;
 }
 
-.navbar {
+.navbar { /* Main nav bar styling */
     width: 100%;
     height: 80px;
     background-color: black;
 }
 
-.navbar .container {
+.navbar .container { /* styling the nav bar */
     max-width: 1140px;
     height: 100%;
     display: flex;
@@ -66,32 +63,28 @@ ul {
     color: var(--primary) 
 }
 
+.nav.active {
+    right:0;
+}
+
+/* NAV DESKTOP STYLING */
+
 @media screen and (max-width: 1920px) {
 
     .nav .btn-mobile {
         display: none;
     }
-
-    .nav .btn-desktop {
-        display: block;
-        width: 100px;
-        height: 30px;
-        margin-right: 15px;
-        background-color: black;
-        border: 1px solid var(--primary);
-        border-radius: 5px;
-        color: var(--primary);
-        font-family: 'Montserrat', sans-serif;
-        cursor: pointer;
-        
-    }
+    
     .nav .btn-desktop:hover {
         /* background-color: #101112; */
         cursor: pointer;
         color: white;
-        border-color: white;
+        /* border-color: white; */
     }
 }
+
+
+/* NAV MOBILE STYLING */ 
 
 @media screen and (max-width: 940px) {
 
@@ -131,7 +124,7 @@ ul {
        /* background-color: #101112; */
        cursor: pointer;
        color: white;
-       border-color: white;
+       /* border-color: white; */
    }
 
    .nav a {
@@ -155,8 +148,4 @@ ul {
        color: white;
        cursor:pointer;
    }
-}
-
-.nav.active {
-    right:0;
 }

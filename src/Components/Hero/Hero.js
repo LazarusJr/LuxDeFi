@@ -4,6 +4,7 @@ import MainVideo from '../../Assets/video.mp4'
 
 const HomeH = () => {
   return (
+
     <div className="Main-Hero">
       <video autoPlay loop muted id='video'>
         <source src={MainVideo} type='video/mp4' />
@@ -32,12 +33,10 @@ const HomeH = () => {
           <div className='disclaimer'>
           <button className='btn-desktop' type='confirm'>Sign Up</button>
           <div className='form-footer'>
-          <input type='checkbox' /><p>yes i agree to receieve emails from DeFi Community</p>
-          </div>
+          <input id ='checkbox' type='checkbox' /><label for='checkbox'>&nbsp;&nbsp;Yes i agree to all&nbsp;<span>terms and conditions</span></label></div>
           </div>
         </form>
         </div>
-       
       </div>
       </div>
       </div>
