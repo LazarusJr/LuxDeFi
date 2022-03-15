@@ -1,0 +1,36 @@
+.socialmedia-container {
+    height: 120px;
+    background-color: black;
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-mediawrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia-container .socialmedias a {
+    color: var(--primary);
+    margin: 20px;
+    text-decoration: none;
+}
+
+.s-heading h1 {
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.socialmedias a:hover {
+    color: white;
+    
+}
+
+@media screen and (max-width: 640px) {
+    .s-heading h1 {
+        font-size: 20px;
+    }
+}

@@ -4,27 +4,17 @@ import './Information.css'
 const Information = () => {
   return (
     <div className='container2'>
-          <div className='column-1'>
+      <div className='column-wrap'>
+      <div className='column-1'>
             <h1>Welcome to the future</h1>
             </div>
+            <div className='col2-wrap'>
             <div className='column-2'>
-            <form className='Main-form'>
-          <div className='form-heading'>
-          <h1>Start your journey today!</h1>
-          <p>lets get you signed up so you can start</p>
-          </div>
-          <div className='form-inputs'>
-          <input name='name' type='text' placeholder='enter your name' />
-          <input name='email' type='text' placeholder='enter your email address' />
-          <input name='password' type='password' placeholder='create a password' />
-          <input name='password' type='password' placeholder='confirm password'/>
-          </div>
-          <div className='disclaimer'>
-          <button className='btn-desktop' type='confirm'>Sign Up</button>
-          <div className='form-footer'>
-          <input id ='checkbox' type='checkbox' /><label for='checkbox'>&nbsp;&nbsp;Yes i agree to all&nbsp;<span>terms and conditions</span></label></div>
-          </div>
-        </form>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+        </div>
+              </div>
         </div>
               </div>
   )

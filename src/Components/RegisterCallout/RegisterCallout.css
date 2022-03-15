@@ -1,0 +1,91 @@
+/* CONTAINER STYLING */
+
+.callout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    height: 350px;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+/* FORM STYLING */
+
+.Callout-input input:focus {
+    border-color: white;
+}
+
+.Callout-input input { /*Main textarea input */
+    display: flex;
+    width: 100%;
+    padding: .3rem;
+    margin: .7em;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Callout-input input::placeholder { /*Controls the styling of the placeholder text */
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+}
+
+.Callout-input input:focus { /*input outline */ 
+    outline: none;
+}
+
+
+/* FORM FOOTER */
+
+.form-footer span {
+    text-decoration: underline;
+}
+
+.form-footer span:hover {
+    color: white;
+    cursor: pointer
+}
+
+.form-footer {
+    color: black;
+    font-weight: 500;
+}
+.form-footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.form-footer input {
+    margin-top: 3.5px;
+    
+}
+
+.btn-Callout {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: var(--primary);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-Callout:hover {
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}

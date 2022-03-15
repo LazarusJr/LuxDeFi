@@ -13,7 +13,7 @@ const HomeH = () => {
       <div className='container'>
       <div className='col-1'>
         <h1 className='Lux'>LUX-XEFI</h1>
-        <h3>Enhance the future of banking</h3>
+        <h3>Experience the future of banking</h3>
         <p>unleash the potential of your investments <span className='gold'> and never fear losing out</span></p>
       </div>
       </div>

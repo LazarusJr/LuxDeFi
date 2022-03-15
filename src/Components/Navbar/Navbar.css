@@ -64,6 +64,11 @@
     box-shadow: 5px 4px var(--primary);
 }
 
+.navbar .text-logo a:hover {
+    text-decoration: none;
+    box-shadow: 5px 4px white;
+}
+
 .nav.active {
     right:0;
 }
