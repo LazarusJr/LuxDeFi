@@ -18,6 +18,12 @@ const SocialMedia = () => {
               <a href='#'><AiOutlineInstagram size={35}/></a>
               </div>  
               </div>
+                    <div className='divide-con'>
+                <div className='lines'>
+                  <div className='diamond'>
+                    </div> 
+                    </div>
+                    </div>
       </div>
   )
 }
