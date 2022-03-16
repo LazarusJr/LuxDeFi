@@ -1,9 +1,5 @@
 import React from 'react'
 import './Highlight-Section.css'
-import global from '../../Assets/global.png'
-import Bolt from  '../../Assets/bolt.png'
-import Network from '../../Assets/network.png'
-import Shield from '../../Assets/shield.png'
 
 
 const HighlightSection = () => {

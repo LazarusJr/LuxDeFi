@@ -18,14 +18,8 @@ color: var(--primary);
     margin-top: 30px;
 }
 
-/* .wrap { 
-    max-width: 940px;
-    margin: auto;
-} */
-
 .Main-Hero .container {
     display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
 }
 
 #video {

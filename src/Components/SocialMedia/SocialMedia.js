@@ -9,13 +9,13 @@ const SocialMedia = () => {
           <h1>Follow latest updates on our social media</h1></div>
           <div className='social-mediawrap'>
           <div className='socialmedias'>
-              <a href='#'><AiOutlineFacebook size={35}/></a>
+              <a href='/#'><AiOutlineFacebook size={35}/></a>
               </div>
               <div className='socialmedias'>
-              <a href='#'><AiOutlineTwitter size={35}/></a>
+              <a href='/#'><AiOutlineTwitter size={35}/></a>
               </div>
               <div className='socialmedias'>
-              <a href='#'><AiOutlineInstagram size={35}/></a>
+              <a href='/#'><AiOutlineInstagram size={35}/></a>
               </div>  
               </div>
                     <div className='divide-con'>

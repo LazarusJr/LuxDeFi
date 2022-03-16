@@ -29,6 +29,9 @@
     
 }
 
+
+/* DIVIDER STYLING */
+
 .divide-con {
     padding: 100px;
     margin-top: -70px;
@@ -69,6 +72,9 @@
     margin: auto;
     transform: rotate(45deg)
 }
+
+
+/* RESPONSIVE STYLING */
 
 @media screen and (max-width: 640px) {
 
