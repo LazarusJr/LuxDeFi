@@ -11,7 +11,7 @@ const Information = () => {
             <div className='col2-wrap'>
             <div className='column-2'>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lux-xefi is the next frontier of the next generation of banking; we take pleasure in our top-of-the-line security and a thriving community to assist you with your cryptocurrency swaps. We work hard to give you with swift executions on deposits and withdrawals, and we strive to deliver such a service that has never been seen before. Due to launch in late 2022, we are currently accepting applications for your own dedicated account. Be the first to know when we will be releasing and maybe an early release to test our services.
               </p>
         </div>
               </div>

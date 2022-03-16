@@ -11,7 +11,7 @@
     display: flex;
 }
 
-/* COL-2 STYLING */
+/* COL-1 STYLING */
 
 .column-wrap .column-1 {
 display: flex;
@@ -29,6 +29,8 @@ align-items: center;
     height: 170px;
 }
 .column-2 p {
+    text-align: center;
+    font-weight: 500;
     font-size: 20x;
 }
 

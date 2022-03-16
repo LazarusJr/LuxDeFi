@@ -8,8 +8,7 @@ const FooterBottom = () => {
       <div className='footer-logo'>
         <h1>XEFI</h1>
         </div>
-        <small className='website-right'>Lux-Xefi 	&copy; 2022</small>
-
+        <small className='website-right'>Lux-Xefi 	&copy; 2022 all rights reserved</small>
       </div>
     </div>
   )
